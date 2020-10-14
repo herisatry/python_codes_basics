@@ -1,18 +1,16 @@
-# Python3 code to demonstrate working of 
-# Longest String in list 
-# using max() + key 
+# find the longest string , with the help of max() and a key
 
 def max_str(liste):    
-    # Longest String in list 
-    # using max() + key 
+    # chaine de caractere la plus longue avec 
+    # usage de max() + key 
     res = max(test_list, key = len)
     return res
 
-# initialize list  
-test_list = ['gfg', 'is', 'best', 'for', 'geeks']
+# list initialization  
+test_list = ['test', 'test123', 'test1234', 'tester12345', '1234testing']
 
-# printing original list  
+# original list  
 print("The original list : " + str(test_list)) 
   
-# printing result 
-print("Maximum length string is : " + max_str(test_list))
+# result 
+print("La plus longue chaine de caractere est : " + max_str(test_list))
