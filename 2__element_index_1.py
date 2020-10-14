@@ -1,14 +1,14 @@
-mylist = [21, 5, 8, 52, 21, 87, 52]
-item = 52
+maliste = [21, 5, 8, 52, 21, 87, 52]
+elements = 52
 
-def el_index(liste,items):
+def el_index(maliste,elements):
     try:
-        #search for the item
-        index = liste.index(items)
-        res = ('The index of', items, 'in the list is:', index)
+        #recherche de l'element item dans la liste mylist
+        index = maliste.index(elements)
+        res = ('The index of', elements, 'in the list is:', index)
         
     except ValueError:
 	    res ='None'
     return res
 
-print(el_index(mylist,item))
+print(el_index(maliste,elements))
