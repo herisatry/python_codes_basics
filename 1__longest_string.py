@@ -1,6 +1,10 @@
 # find the longest string , with the help of max() and a key
 
 def max_str(liste):    
+    '''
+    find the longest string , with the help of max() and a key.
+    to use it: max_str(liste_name)
+    '''
     # chaine de caractere la plus longue avec 
     # usage de max() + key 
     res = max(test_list, key = len)
