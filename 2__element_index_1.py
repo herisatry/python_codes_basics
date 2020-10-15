@@ -1,12 +1,25 @@
-maliste = [21, 5, 8, 52, 21, 87, 52]
+#element test 
+
+liste = [21, 5, 8, 52, 21, 87, 52]
 elements = 52
 
-def el_index(maliste,elements):
+
+#definition de la fonction
+
+def el_index(maListe,mesElements):
+	'''
+	recherche de l'element item dans la liste mylist
+	syntaxe : el_index(list_name,element_researched)
+	
+	'''
     try:
-        #recherche de l'element item dans la liste mylist
-        index = maliste.index(elements)
-        res = ('The index of', elements, 'in the list is:', index)
-        
+        #recherche de l'element item dans la liste maliste
+        index = maListe.index(mesElements)
+        res = ('The index of', mesElements, 'in the list is:', index)
+	
+#Dans le cas ou l'element rechercher ne fait pas partie de la liste, 
+#on utilise un error handler.
+
     except ValueError:
 	    res ='None'
     return res
