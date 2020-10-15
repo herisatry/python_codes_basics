@@ -15,7 +15,7 @@ def el_index(maListe,mesElements):
     try:
         #recherche de l'element item dans la liste maliste
         index = maListe.index(mesElements)
-        res = ('The index of', mesElements, 'in the list is:', index)
+        res = ('indice de ', mesElements, 'dans la liste est : ', index)
 	
 #Dans le cas ou l'element rechercher ne fait pas partie de la liste, 
 #on utilise un error handler.
